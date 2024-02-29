@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-02-29T03:45:22.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="DJ5fhspQglWlfsbURa3t" version="23.1.5" type="device">
+  <diagram name="Page-1" id="gaZ5dd_hf7yT-PmFZJoE">
+    <mxGraphModel dx="1074" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-1" value="FULL PROJECT CODE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-2" value="Task 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-5" value="Task 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-6" target="PRJU_IT0d_M5p1y3sVmV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-6" value="Task 4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-7" value="Task 5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-1" target="PRJU_IT0d_M5p1y3sVmV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-16" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Key&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Solid Line = Task order&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Dash Line = Deliverable required from original task to make the end task work&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-17" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;To Do&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;Task 1 - Read data from input file&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Task 2 - Process data to remove excess space and comments&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Task 3 - Tokenize remaining code&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Task 4 - Print the code after removing excess space and comments&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Task 5 - Print output of tokenization in tabular form&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="400" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-3" target="PRJU_IT0d_M5p1y3sVmV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="189.5" as="sourcePoint" />
+            <mxPoint x="380" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-5" target="PRJU_IT0d_M5p1y3sVmV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="189.5" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-2" target="PRJU_IT0d_M5p1y3sVmV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-3" value="Task 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-2" target="PRJU_IT0d_M5p1y3sVmV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-3" target="PRJU_IT0d_M5p1y3sVmV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRJU_IT0d_M5p1y3sVmV-5" target="PRJU_IT0d_M5p1y3sVmV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRJU_IT0d_M5p1y3sVmV-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="PRJU_IT0d_M5p1y3sVmV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="220" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
