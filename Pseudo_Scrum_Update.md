@@ -19,7 +19,11 @@
 
 * Jessica 
 
+      1) N/A
+
 * Thomas
+
+      1) N/A 
 
 #### Tasks Doing
 
@@ -30,12 +34,19 @@
 
 * Jessica
 
+      1) Familiarize with work environment
+      2) Choose what want from to-do list here
+
 * Thomas
+
+      1) Familiarize with work environment
+      2) Choose what want from to-do list here 
   
 #### Tasks To-Do (feel free to select any which you would like to do)
 
+'''
 1) Task 1 - Reading input from file
 2) Task 2 - Process data to remove excess space and comments
 3) Task 3 - Tokenize the remaining code
 4) Task 4 - Print the code after removing excess space and comments
-
+'''
