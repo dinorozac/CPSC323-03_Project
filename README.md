@@ -1,7 +1,5 @@
 # CPSC323-03_Project - Data Analyzer
 
-## This is group 11's repository for Data Analyzer Project Assigned for Instructor Keshav Daga's CPSC 323-03 course. 
-
 ### Authors ✍️
 
 Group #11
