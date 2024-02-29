@@ -3,14 +3,13 @@
 ## Scrum Update #1 - Week of 2/26/24 - 3/3/24
 
 ### Overall Goal
-'''
+
 1) Configure and confirm communication channels.
 2) Create GitHub repository and provide starting point for future development
 3) Develop platform for which people can freely add on to and do work
-'''
 
 ### Tasks Completed
-'''
+
 * Dino
 
       1) Created Github Repository
@@ -21,11 +20,9 @@
 * Jessica 
 
 * Thomas
-  
-'''
 
 #### Tasks Doing
-'''
+
 * Dino
 
       1) Task 5 Work - Creating table code
@@ -35,14 +32,10 @@
 
 * Thomas
   
-'''
-
 #### Tasks To-Do (feel free to select any which you would like to do)
-'''
+
 1) Task 1 - Reading input from file
 2) Task 2 - Process data to remove excess space and comments
 3) Task 3 - Tokenize the remaining code
 4) Task 4 - Print the code after removing excess space and comments
-'''
 
-<b>This text is bold test<b>
