@@ -39,8 +39,8 @@
 
 * Thomas
 
-      1) Familiarize with work environment
-      2) Choose what want from to-do list here 
+      1) Task 4 - Print the code after removing excess space and comments
+      2) Task 2 - Process data to remove excess space and comments 
   
 #### Tasks To-Do (feel free to select any which you would like to do)
 
