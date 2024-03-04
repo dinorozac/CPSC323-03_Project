@@ -17,10 +17,6 @@
       3) Send Thomas GitHub invite link
       4) Created Project Outline draw.io file and uploaded to Github
 
-* Jessica 
-
-      1) N/A
-
 * Thomas
 
       1) N/A 
@@ -31,11 +27,6 @@
 
       1) Task 5 Work - Creating table code
       2) Task 3 Work - Creating outline of tokens and what characters belong in which 
-
-* Jessica
-
-      1) Familiarize with work environment
-      2) Choose what want from to-do list here
 
 * Thomas
 
