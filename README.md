@@ -5,8 +5,7 @@
 Group #11
 
 1) Dino Rozac
-2) Jessica Trejo
-3) Thomas Lam
+2) Thomas Lam
 
 ### Date Due 📅
 
