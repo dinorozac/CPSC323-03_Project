@@ -15,7 +15,6 @@
 #include <sstream>
 #include <cctype>
 
-// Function to remove excess spaces, comments, and empty lines from a string
 std::string processCode(const std::string& code) {
     std::string result;
     bool inComment = false;
@@ -28,12 +27,10 @@ std::string processCode(const std::string& code) {
         if (line.empty()) {
             continue;
         }
-
         // Skip comment lines
         if (line.find('#') != std::string::npos) {
             continue;
         }
-
         // Process each character in the line to remove excess spaces
         bool lastCharWasSpace = false;
         for (char c : line) {
@@ -47,35 +44,27 @@ std::string processCode(const std::string& code) {
                 lastCharWasSpace = false;
             }
         }
-
         result += '\n';
     }
-
     return result;
 }
-
 int main() {
-    // Open file.txt for reading
+    // Opens the file
     std::ifstream inputFile("file.txt");
-
     if (!inputFile.is_open()) {
         std::cerr << "Error opening file.txt" << std::endl;
         return 1; // Exit with an error code
     }
-
-    // Read the content of file.txt into a string
+    // Turns file into string
     std::ostringstream contentStream;
     contentStream << inputFile.rdbuf();
     std::string fileContent = contentStream.str();
 
-    // Close the input file
+    // Close file
     inputFile.close();
-
+    
     // Remove excess spaces, comments, and empty lines from the content
     std::string modifiedContent = processCode(fileContent);
-
-    // Print the modified content
     std::cout << modifiedContent;
-
     return 0; // Exit successfully
 }
