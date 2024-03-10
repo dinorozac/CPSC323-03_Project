@@ -1,0 +1,109 @@
+--START PROGRAM--
+x--------------------------------------------------------------------x
+*
+*		 
+*	__          __  _                          
+*	\ \        / / | |                         
+* 	 \ \  /\  / /__| | ___ ___  _ __ ___   ___ 
+*  	  \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+*   	   \  /\  /  __/ | (_| (_) | | | | | |  __/
+*    	    \/  \/ \___|_|\___\___/|_| |_| |_|\___|
+*
+*
+*
+x--------------------------------------------------------------------x
+*
+* Project Title: DT MINI-C++ CODE TOKENIZER 
+*
+* Class: CPSC 323-03
+*
+* Date of Last Update: 3/8/2024
+*
+* Purpose: Takes a text file containing C++ Code, eliminates whitespace/comments and produces both cleared code and token table.
+*
+* Authors: Group #11 - Thomas Lam & Dino Rozac
+*
+x--------------------------------------------------------------------x
+
+* Please Provide Pathing For The File with Code: _______________________
+ 
+* Success! 									// (input validation)
+
+*Your Code as Read by System:
+
+**********************************************************************
+
+
+#include <iostream>
+
+using namespace std;
+
+
+// Function to calculate the sum of two integers
+int calculate_sum(int a, int b) {
+    // This function calculates the sum of two numbers
+    return a + b;
+}
+
+
+// Main function
+int main() {
+    int num1 = 10;
+    int num2 = 20;
+
+    // Calculate the sum
+    int result = calculate_sum(num1, num2);
+
+    // Print the result
+    cout << "Sum: " << result << endl;
+
+    return 0;
+}
+
+**********************************************************************
+
+* Your Code after Removing Excess Space and Comments:				//This is my guess for what it would look like
+
+----------------------------------------------------------------------
+
+int calculate_sum(int a, int b) {
+return a + b;
+}
+int main() {
+int num1 = 10;
+int num2 = 20;
+int result = calculate_sum(num1, num2);
+cout << "Sum: " << result << endl;
+return 0;
+}
+
+----------------------------------------------------------------------
+
+* Tokenization of Code:
+
+x-----------------------------------------------------------------------------------------x
+| Token      | Count | List                                                               |
+|------------|----------------------------------------------------------------------------x
+| Keyword    |  #    | K_List                                                             |
+| Identifier |  #    | I_List                                                             |
+| Literal    |  #    | L_List                                                             |
+| Operator   |  #    | O_List                                                             |
+| Separator  |  #    | S_List                                                             |
+x-----------------------------------------------------------------------------------------x
+
+* Graph Form Amount:
+
+K: xxx...
+I: xxx...
+L: xxx...
+O: xxx...
+S: xxx...
+
+* Total Token Count: ##
+
+
+Thank You For Using Our Program. Have a nice day! 
+
+--END PROGRAM--
+
+
