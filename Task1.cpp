@@ -10,3 +10,72 @@
 */
 
 // Your code goes here
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <cctype>
+
+// Function to remove excess spaces, comments, and empty lines from a string
+std::string processCode(const std::string& code) {
+    std::string result;
+    bool inComment = false;
+
+    std::istringstream lineStream(code);
+    std::string line;
+
+    while (std::getline(lineStream, line, '\n')) {
+        // Skip empty lines
+        if (line.empty()) {
+            continue;
+        }
+
+        // Skip comment lines
+        if (line.find('#') != std::string::npos) {
+            continue;
+        }
+
+        // Process each character in the line to remove excess spaces
+        bool lastCharWasSpace = false;
+        for (char c : line) {
+            if (std::isspace(c)) {
+                if (!lastCharWasSpace) {
+                    result += ' ';  // Add a single space
+                    lastCharWasSpace = true;
+                }
+            } else {
+                result += c;
+                lastCharWasSpace = false;
+            }
+        }
+
+        result += '\n';
+    }
+
+    return result;
+}
+
+int main() {
+    // Open file.txt for reading
+    std::ifstream inputFile("file.txt");
+
+    if (!inputFile.is_open()) {
+        std::cerr << "Error opening file.txt" << std::endl;
+        return 1; // Exit with an error code
+    }
+
+    // Read the content of file.txt into a string
+    std::ostringstream contentStream;
+    contentStream << inputFile.rdbuf();
+    std::string fileContent = contentStream.str();
+
+    // Close the input file
+    inputFile.close();
+
+    // Remove excess spaces, comments, and empty lines from the content
+    std::string modifiedContent = processCode(fileContent);
+
+    // Print the modified content
+    std::cout << modifiedContent;
+
+    return 0; // Exit successfully
+}
