@@ -40,3 +40,43 @@
     2) Task 2 - Process data to remove excess space and comments
     3) Task 3 - Tokenize the remaining code
     4) Task 4 - Print the code after removing excess space and comments
+
+--------------------------------------------------------------------------------------------------------------
+## Scrum Update #2 - Week of 3/4/24 - 3/10/24
+
+### Overall Goal
+
+1) Continue work on project
+2) Consider C++ token category members
+
+### Tasks Completed
+
+* Dino
+
+      1) Created Intro Program (v.01) for project
+      2) Removed team member who had dropped course
+      3) Completed Task 5 (v.01)
+      4) Created final program test output (v.01)
+
+* Thomas
+
+      1) N/A 
+
+#### Tasks Doing
+
+* Dino
+
+      1) Task 5 Work - Adding simple graph feature
+      2) Task 3 Work - Finish outline/pseudocode for task + create tokenizing program
+
+* Thomas
+
+      1) 
+      2) 
+  
+#### Tasks To-Do (feel free to select any which you would like to do)
+
+
+    1) Task 1 - Reading input from file
+    2) Task 2 - Process data to remove excess space and comments
+    4) Task 4 - Print the code after removing excess space and comments
