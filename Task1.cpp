@@ -28,7 +28,7 @@ std::string processCode(const std::string& code) {
             continue;
         }
         // Skip comment lines
-        if (line.find('//') != std::string::npos) {
+        if (line.find("//") != std::string::npos) {
             continue;
         }
         // Process each character in the line to remove excess spaces
@@ -51,10 +51,7 @@ std::string processCode(const std::string& code) {
 int main() {
     // Opens the file
     std::ifstream inputFile("file.txt");
-    if (!inputFile.is_open()) {
-        std::cerr << "Error opening file.txt" << std::endl;
-        return 1; // Exit with an error code
-    }
+
     // Turns file into string
     std::ostringstream contentStream;
     contentStream << inputFile.rdbuf();
@@ -63,8 +60,8 @@ int main() {
     // Close file
     inputFile.close();
     
-    // Remove excess spaces, comments, and empty lines from the content
-    std::string modifiedContent = processCode(fileContent);
-    std::cout << modifiedContent;
+    // Remove excess spaces, comments, and empty lines
+    std::string changedCode = processCode(fileContent);
+    std::cout << changedCode;
     return 0;
 }
