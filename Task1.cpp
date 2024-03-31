@@ -28,7 +28,7 @@ std::string processCode(const std::string& code) {
             continue;
         }
         // Skip comment lines
-        if (line.find('#') != std::string::npos) {
+        if (line.find('//') != std::string::npos) {
             continue;
         }
         // Process each character in the line to remove excess spaces
