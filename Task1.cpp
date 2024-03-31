@@ -32,16 +32,16 @@ std::string processCode(const std::string& code) {
             continue;
         }
         // Process each character in the line to remove excess spaces
-        bool lastCharWasSpace = false;
+        bool Space = false;
         for (char c : line) {
             if (std::isspace(c)) {
-                if (!lastCharWasSpace) {
+                if (!Space) {
                     result += ' ';  // Add a single space
-                    lastCharWasSpace = true;
+                    Space = true;
                 }
             } else {
                 result += c;
-                lastCharWasSpace = false;
+                Space = false;
             }
         }
         result += '\n';
@@ -66,5 +66,5 @@ int main() {
     // Remove excess spaces, comments, and empty lines from the content
     std::string modifiedContent = processCode(fileContent);
     std::cout << modifiedContent;
-    return 0; // Exit successfully
+    return 0;
 }
