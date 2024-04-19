@@ -60,7 +60,8 @@
 
 * Thomas
 
-      1) N/A 
+      1) Task 4 - Print the code after removing excess space and comments
+      2) Task 2 - Process data to remove excess space and comments 
 
 #### Tasks Doing
 
@@ -71,8 +72,8 @@
 
 * Thomas
 
-      1) 
-      2) 
+      1) Task 4 - Print the code after removing excess space and comments
+      2) Task 2 - Process data to remove excess space and commen
   
 #### Tasks To-Do (feel free to select any which you would like to do)
 
